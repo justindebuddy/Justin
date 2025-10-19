@@ -181,7 +181,7 @@
     }
 
     function showFinalMessage() {
-      questionEl.textContent = "🎉 恭古有项羽无人敌,今有坤坤万人迷";
+      questionEl.textContent = "🎉 古有项羽无人敌,今有坤坤万人迷";
       optionsEl.innerHTML = `<div class="final-message">
         现在请到 <b>Dry Lab 外的 204 locker</b> 里获取你的线索！
       </div>`;
