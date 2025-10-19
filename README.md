@@ -165,7 +165,7 @@
       const correctIndex = quiz[current].answer;
       if (i === correctIndex) {
         btn.classList.add("correct");
-        messageEl.textContent = "✅ 答对啦！";
+        messageEl.textContent = "✅ 答对啦，你是真爱粉！";
         setTimeout(() => {
           current++;
           if (current < quiz.length) {
@@ -176,12 +176,12 @@
         }, 1000);
       } else {
         btn.classList.add("wrong");
-        messageEl.textContent = "❌ 错啦！再试一次！";
+        messageEl.textContent = "❌ 小黑子！再试一次！";
       }
     }
 
     function showFinalMessage() {
-      questionEl.textContent = "🎉 恭喜你答对了所有问题！";
+      questionEl.textContent = "🎉 恭古有项羽无人敌,今有坤坤万人迷";
       optionsEl.innerHTML = `<div class="final-message">
         现在请到 <b>Dry Lab 外的 204 locker</b> 里获取你的线索！
       </div>`;
